@@ -6,8 +6,8 @@ const app = express();
 const PORT = 3000;
 
 // Ganti ini sesuai bot kamu
-const TELEGRAM_BOT_TOKEN = '7613399653:AAEwDYmJMbfKHdQ366DZhnzMMUhbt7ORdqc';
-const TELEGRAM_CHAT_ID = '1344179305'; // Misal: -123456789
+const TELEGRAM_BOT_TOKEN = 'YOUR-BOT-TOKEN';
+const TELEGRAM_CHAT_ID = 'CHATID'; // Misal: -123456789
 
 app.use(bodyParser.json());
 
